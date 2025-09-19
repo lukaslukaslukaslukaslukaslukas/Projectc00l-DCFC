@@ -71,7 +71,7 @@ header {
 
 .player-card {
   flex: 0 0 auto;
-  width: 550px;
+  width: 600px;
   background: RGB(32, 30, 31);
   border-radius: 12px;
   padding: 15px;
@@ -80,9 +80,19 @@ header {
   box-shadow: 0 4px 10px rgba(0,0,0,0.6);
   display:flex;
   justify-content: space-between;
-  flex-direction:column;    
+  flex-direction:column;   
+  align-items:center; 
 }
 
 .player-card img{
-    width:500px;
+    height:550px;
+    
+}
+
+.section-title {
+  margin: 20px;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
 }
