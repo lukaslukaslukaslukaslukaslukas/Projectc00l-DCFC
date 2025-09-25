@@ -96,3 +96,10 @@ header {
   text-transform: uppercase;
   color: #fff;
 }
+
+.player-card .stats {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffcc00;
+}
